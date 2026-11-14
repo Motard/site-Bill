@@ -855,7 +855,10 @@
               </ul>
             </div>
             <div class="footer-text">
-              <h6>Osteopata Sergio Garcia<br />Desenvolvido por PM Net</h6>
+              <h6>
+                Osteopata Sergio Garcia<br />
+                <p>Desenvolvido por Paulo Martins - <span id="year"></span></p>
+              </h6>
             </div>
           </div>
         </div>
@@ -900,5 +903,9 @@
     <script src="assets/switcher/switcher.js"></script>
     <!-- scripts js -->
     <script src="assets/js/scripts.js"></script>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
