@@ -117,7 +117,6 @@ fieldset {
 
 .section-title h2 {
   font-size: 40px;
-  text-transform: capitalize;
   margin-bottom: 30px;
   font-weight: 600;
   position: relative;
@@ -1470,7 +1469,6 @@ a.price-more:hover {
 }
 
 .footer-text h6 {
-  text-transform: capitalize;
   letter-spacing: 1px;
   color: #fff;
   line-height: 25px;
